@@ -1,9 +1,19 @@
 import React from 'react';
 import './App.css'
 import Index from './routes'
+import CounterView from './counterView/CounterView';
 
 const App = () => {
-  return  <Index/>
+  return (
+    <>
+    <Index/>
+    <CounterView/>
+ 
+    </>
+  )
+  
+ 
+  
   
 }
 
